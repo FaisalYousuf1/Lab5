@@ -12,7 +12,7 @@ def countLetters(message):
     alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     message = message.upper()
 
-    frequencies = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    freq = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
     #loop through each letter
     #Find the position in the alphabet
@@ -37,7 +37,7 @@ def writeToFile(fileText):
     os.chdir(dir_path)
 
     freqFile = open("frq.csv", 'w')
-    freqFile.write(line)
+    freqFile.write(fileText)
 
     freqFile.close()
 
