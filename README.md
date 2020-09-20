@@ -33,7 +33,7 @@ In an alphabetic substitution cipher, each letter is paired with another letter 
   - If position was 5, then frequencies[5] = frequencies[5] + 1
 
 After you have counted how many of each letter are in your message, we will save this info to a .csv file.
-Open the file in Excel and create a chart using the data. Save the file with the chart and make sure that it is added to your Github repo.
+Open the file in Excel and create a chart using the data. Save the file with the chart and make sure that it is added to your repl.it files.
 
 
 ![Frequency Chart](FrequencyGraph.png)
