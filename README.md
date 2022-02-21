@@ -61,8 +61,9 @@ You will give the user 6 tries to get the correct word
 If they get it early, end the loop and congratulate.
 Use the helper methods to determine if the user got any letters correct.
 
---
-##Deprecated - This is an interesting lab but don't worry about completing the Enigma. Feel free to read about how the German enigma worked and how we could re-create this in code but it will not be graded.
+---
+##Deprecated - Enigma Program
+This is an interesting lab but don't worry about completing the Enigma. Feel free to read about how the German enigma worked and how we could re-create this in code but it will not be graded.
 
 ### Enigma
 During World War II, the Germans used a device known as Enigma to encrypt their messages before they were relayed via radio. Since everyone could hear the radio transmissions, the code needed to be unbreakable.
