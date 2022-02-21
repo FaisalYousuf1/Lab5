@@ -38,6 +38,32 @@ Open the file in Excel and create a chart using the data. Save the file with the
 
 ![Frequency Chart](FrequencyGraph.png)
 
+### Word Game (not a NYT property)
+We will be re-creating a (currently) popular word game where a user guesses 5-letter words and gets feedback on their guess.
+
+#### WordGame.py
+You will finish the word game in a few important ways. There are three helper functions we will look at completing.
+#### inWord(letter, word)
+This function returns True or False depending on the state of the given letter being anywhere in the word.
+
+#### inSpot(letter, word, spot)
+This function returns True or False if the letter is in the word at the given spot.
+
+#### rateGuess(myGuess, word)
+Rates your guess and returns a word with the following features.
+- Capital letter if the letter is in the right spot
+- Lower case letter if the letter is in the word but in the wrong spot
+- * if the letter is not in the word at all
+
+#### main()
+Your main function should randomly select a word from the list of all possible words.
+You will give the user 6 tries to get the correct word
+If they get it early, end the loop and congratulate.
+Use the helper methods to determine if the user got any letters correct.
+
+--
+##Deprecated - This is an interesting lab but don't worry about completing the Enigma. Feel free to read about how the German enigma worked and how we could re-create this in code but it will not be graded.
+
 ### Enigma
 During World War II, the Germans used a device known as Enigma to encrypt their messages before they were relayed via radio. Since everyone could hear the radio transmissions, the code needed to be unbreakable.
 

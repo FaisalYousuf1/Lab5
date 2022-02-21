@@ -52,7 +52,7 @@ def main():
     # Now that we have been through one pass, adjust any of the rotors that need to be rotated.
     rotor1 = rotate(rotor1)
 
-    
+
     print(letter) #This one letter has been encoded
 
 
