@@ -56,4 +56,5 @@ def main():
     print(letter) #This one letter has been encoded
 
 
-main()
+if __name__ == '__main__':
+  main()

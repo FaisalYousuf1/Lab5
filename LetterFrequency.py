@@ -46,4 +46,7 @@ def main():
     msg = input("Enter a message: ")
     countLetters(msg)
 
-main()
+
+
+if __name__ == '__main__':
+  main()

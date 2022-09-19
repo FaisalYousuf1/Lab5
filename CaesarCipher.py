@@ -31,4 +31,5 @@ def main():
     #print ("Decrypted:", plaintext)
 
 
-main()
+if __name__ == '__main__':
+  main()
