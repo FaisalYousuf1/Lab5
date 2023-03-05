@@ -62,7 +62,7 @@ If they get it early, end the loop and congratulate.
 Use the helper methods to determine if the user got any letters correct.
 
 ---
-##Deprecated - Enigma Program
+## Old - Enigma Program
 This is an interesting lab but don't worry about completing the Enigma. Feel free to read about how the German enigma worked and how we could re-create this in code but it will not be graded.
 
 ### Enigma
