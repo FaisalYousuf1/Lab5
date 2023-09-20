@@ -35,7 +35,6 @@ In an alphabetic substitution cipher, each letter is paired with another letter 
 After you have counted how many of each letter are in your message, we will save this info to a .csv file.
 Open the file in Excel and create a chart using the data. Save the file with the chart and make sure that it is added to your repl.it files.
 
-
 ![Frequency Chart](FrequencyGraph.png)
 
 ### Word Game (not a NYT property)
@@ -60,37 +59,6 @@ Your main function should randomly select a word from the list of all possible w
 You will give the user 6 tries to get the correct word
 If they get it early, end the loop and congratulate.
 Use the helper methods to determine if the user got any letters correct.
-
----
-## Old - Enigma Program
-This is an interesting lab but don't worry about completing the Enigma. Feel free to read about how the German enigma worked and how we could re-create this in code but it will not be graded.
-
-### Enigma
-During World War II, the Germans used a device known as Enigma to encrypt their messages before they were relayed via radio. Since everyone could hear the radio transmissions, the code needed to be unbreakable.
-
-To break the German code, you would need to have the starting position of the Enigma machine. The position was changed daily so each day was a new challenge to break the code to decrypt their messages.
-
-This is a simplified look at how the Enigma worked.
-
-There are 3 rotors, each with a different mapping of the alphabet. A single letter is passed through each of the three rotors and passed out the other end as a new (encoded) letter.
-
-After each letter, the first rotor is "rotated" one position. After the first rotor has made a full rotation, the second rotor will rotate one position. This process can continue until the second rotor has made a full rotation, at which point the third rotor will rotate one position.
-
-![Enigma Diagram](EnigmaDiagram.png)
-
-#### BasicEnigma.py
-To complete the Enigma program, you will need to do the have each letter of the message go through the following process
-
-- Find the position of the letter in the alphabet.
-- Find the letter at that position in Rotor 1
-- Find the position of this letter in the alphabet
-- Find the letter at that position in Rotor 2
-- Find the position of this letter in the alphabet
-- Find the letter at that position in Rotor 3
-- Use the reflector
-- Proceed back through the 3 rotors in reverse order.
-
-After you have passed a letter through the rotors, you should adjust the rotor by rotating it one position. If your message has more than 26 letters, the second rotor will also rotate. If your message has even more letters (more than 676), the third rotor will also rotate once the second rotor finishes a full revolution.
 
 ---
 ## Testing your code
