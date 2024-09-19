@@ -65,7 +65,10 @@ Use the helper methods to determine if the user got any letters correct.
 You may not actually know that your code works until you fully test what you have written. It is often a good idea to get someone else to run your program, they may do something you had not anticipated which could show you a possible flaw or at least a design issue.
 
 ## End of class
-In Repl.it, you will find the share link to your code. That is what gets submitted to Canvas.
+- Add a commit message
+- Commit to GitHub
+- Sync work with Repo
+- Submit your repo link to Canvas
 
 ### Additional Resources
 - [Cracking Codes with Python](http://inventwithpython.com/cracking/)
